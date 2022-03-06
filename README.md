@@ -7,3 +7,4 @@ Do
 ``
   npm i && npm start 
 ``
+And go to [localhost:300](localhost:300)

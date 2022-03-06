@@ -3,8 +3,8 @@ import React, { useEffect, useContext, useState, useCallback } from "react";
 import AuthContext from "src/lib/AuthContext";
 import RequireAuth from "src/lib/RequireAuth";
 import * as request from "src/lib/request";
-import Part from "src/components/part";
-import Modal from "src/components/Modal";
+import Part from "src/pages/list/components/part";
+import Modal from "src/pages/list/components/Modal";
 import Alert from "src/components/Alert";
 import { URL } from "src/utils/constant";
 

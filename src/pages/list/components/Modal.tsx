@@ -1,5 +1,5 @@
 import React from "react";
-import Bom from "src/components/Bom";
+import Bom from "src/pages/list/components/Bom";
 
 type Props = { part?: Part; partBom?: PartBom[]; setSelectedPart: Function };
 

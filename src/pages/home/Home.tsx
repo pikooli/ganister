@@ -4,7 +4,7 @@ import { URL } from "src/utils/constant";
 
 import cookie from "src/lib/cookie";
 import AuthContext from "src/lib/AuthContext";
-import SignIn from "src/components/forms/Signin";
+import SignIn from "src/pages/home/forms/Signin";
 import * as request from "src/lib/request";
 
 type Props = {};

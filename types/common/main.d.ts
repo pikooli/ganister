@@ -1,15 +1,17 @@
 /// <reference path="./common.d.ts" />
 
+type User = {
+  email: string;
+  firstName: string;
+  lastName: string;
+  name: string;
+  pict: string;
+  token: string;
+  tokenExpiration: string;
+};
+
 interface AuthContextType {
-  user: {
-    email: string;
-    firstName: string;
-    lastName: string;
-    name: string;
-    pict: string;
-    token: string;
-    tokenExpiration: string;
-  } | null;
+  user?: User;
   setUser: Function;
 }
 

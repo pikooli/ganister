@@ -63,7 +63,7 @@ const List: React.FC<Props> = () => {
           setError("");
           return setPartBom(result.data);
         }
-        setError("No Bom find");
+        setError("No bom find");
       })
       .catch((error) => console.log("error", error));
   }, [get, selectedPart]);

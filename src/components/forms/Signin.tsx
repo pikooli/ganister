@@ -57,7 +57,7 @@ export default function FormSignin({
       </div>
       <Alert handClose={() => setError("")} text={error} className="mt-2" />
       <button
-        className="bg-transparent mt-2 hover:bg-blue-700 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-700 hover:border-transparent rounded"
+        className="bg-transparent mt-2 hover:bg-blue-700 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-700 hover:border-transparent rounded float-right"
         type="submit"
       >
         Log in
